@@ -1,0 +1,12 @@
+<!-- NOTE: @see ngClick for how to pass data selection to outside expression -->
+<md-content>
+<md-list>
+    <md-list-item ng-repeat="number in $ctrl.numbers track by $index">
+        <span> {{ number }} </span>
+        <!--<md-button ng-click="$ctrl.showDetails({user:user})" ng-class="{'selected' : user === $ctrl.selected }">-->
+
+
+        <!--</md-button>-->
+    </md-list-item>
+</md-list>
+</md-content>

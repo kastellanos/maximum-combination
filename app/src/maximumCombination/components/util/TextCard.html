@@ -1,0 +1,13 @@
+<md-card md-theme="custom-card" md-theme-watch>
+    <md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">{{$ctrl.data.title}}</span>
+            
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content>
+        <p ng-repeat="item in $ctrl.data.content">{{item}}</p>
+    </md-card-content>
+
+</md-card>
+

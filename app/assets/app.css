@@ -1,0 +1,76 @@
+[ng-cloak] {
+  display: none;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header area */
+
+md-toolbar{
+  background-color: mediumseagreen !important;
+}
+md-toolbar h1 {
+  margin: auto;
+}
+
+/* Load area */
+
+md-list .md-button {
+  color: inherit;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+}
+
+
+md-sidenav md-list {
+  padding: 0px 0px 8px 0px;
+}
+
+/* Primary content area */
+
+md-input-container, .full-width{
+  width: 100%;
+}
+md-list {
+  max-height: 300px;
+}
+
+/* Utils */
+
+.content-wrapper {
+  position: relative;
+}
+
+/* Typography support coming in 0.8.0 */
+
+md-toolbar h1 {
+  font-size: 1.250em;
+  font-weight: 400;
+}
+
+.avatar {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0px;
+  vertical-align: middle;
+  zoom: 0.70;
+  transform: translateZ(0);
+  -webkit-transform: scale(0.70);
+  -moz-transform: scale(0.70);
+}
+
+md-bottom-sheet md-icon {
+  margin-right: 20px;
+}

@@ -1,0 +1,18 @@
+<md-content class="md-padding" layout-xs="column" layout="row">
+    <form class="full-width" name="numbersListForm">
+        <div flex="100">
+        <md-input-container class="md-input-has-placeholder">
+            <label md-no-float>Lista de números</label>
+            <textarea rows="3"  ng-model="$ctrl.listToLoad" ng-pattern="/^(([0-9]+)(\s*,\s*(?=[0-9]))?)+$/" placeholder="1,5,7,101" name="listToLoad" required autofocus></textarea>
+            <div ng-messages="numbersListForm.listToLoad.$error">
+                <div ng-message="required">Este campo es requerido</div>
+                <div ng-message="pattern">Debe ser una lista de números enteros no negativos, separados por coma(,).</div>
+            </div>
+
+        </md-input-container>
+        </div>
+        <div flex="100">
+        <md-button  class="md-primary md-raised" ng-disabled="numbersListForm.$invalid" type="submit" ng-click="$ctrl.loadList()">Cargar Lista</md-button>
+        </div>
+    </form>
+</md-content>
