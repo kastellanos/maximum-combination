@@ -23,7 +23,7 @@ La aplicación Maximum Combination calcula el número de mas grande denominació
 
 * Para ejecutar las pruebas unitarias debe tener instalado karma `npm install -g karma`
 
-* Luego se debe entrar al directorio del proyecto y ejecutar el comando `karma start'
+* Luego se debe entrar al directorio del proyecto y ejecutar el comando `karma start`
 
 #### Pasos para hacer uso de la aplicación
 
